@@ -111,6 +111,7 @@ ReactDOM.render(
     <ReactRedux.Provider store={store}>
       <React.Fragment>
         <Route exact path="/" component={AuthorQuiz} />
+        <Route exact path="/AuthorQuiz" component={AuthorQuiz} />
         <Route path="/add" component={AddAuthorForm} />
       </React.Fragment>
     </ReactRedux.Provider>
